@@ -1,0 +1,1 @@
+const button=document.querySelector('#cheer-button');const reply=document.querySelector('#reply');const messages=['Вот, уже чуть-чуть лучше 🤍','Ноготь заживает, а ты сияешь ✨','Улыбка тебе очень идёт!','Всё будет хорошо, Ира 🌷'];button.addEventListener('click',()=>{reply.textContent=messages[Math.floor(Math.random()*messages.length)]});
